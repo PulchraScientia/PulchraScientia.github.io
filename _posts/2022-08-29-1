@@ -1,0 +1,24 @@
+---
+published: true
+layout: single
+title: "PyTorch - Practice"
+---
+
+```python
+import torch
+torch.FloatTensor
+torch.LongTensor
+torch.ByteTensor
+torch.FloatTensor
+torch.BooleanTensor
+```
+
+```python
+import numpy as np
+x = np.array([[1, 2], [3, 4]])
+print(x, type(x))
+```
+```bash
+[[1 2]
+ [3 4]] <class 'numpy.ndarray'>
+```
