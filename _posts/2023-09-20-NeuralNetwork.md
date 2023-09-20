@@ -23,3 +23,6 @@ $ \begin{align}
   \end{bmatrix}
   \end{equation}
   \end{align} $
+
+n by h matrix가 N개 쌓여있다고 볼 수 있음. 
+$$(N, n, h) \times (N, h, m) = (N, n, m)$$ 
