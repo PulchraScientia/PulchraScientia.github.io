@@ -59,5 +59,14 @@ $$\begin{equation*}
  * 미분 결과는 gradient 벡터가 되어 방향과 크기를 모두 나타냄
  * $\nebula $
 
+* Loss 값을 최소로하는 Loss Function의 입력값 $\theta$ 를 찾자.
+* Gradient Descent : x로 미분한 기울기를 활용하여 좀 더 낮은 곳으로 점차 나아가자
+
+* Global and Local Minima
+  * 국소점에 빠진다면?
+* Loss Minimization using Gradient Descent
+  * 1D 케이스를 높은 차원의 $\theta$ 로 확장
+  
+
 ## 벡터를 스칼라로, 벡터를 벡터로 미분
 
