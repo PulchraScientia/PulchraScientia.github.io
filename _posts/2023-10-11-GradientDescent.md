@@ -71,6 +71,21 @@ $$\begin{equation*}
   * 국소점에 빠진다면?
 * Loss Minimization using Gradient Descent
   * 1D 케이스를 높은 차원의 $\theta$ 로 확장
-  * 모든 차원에서 동시에 local minima가 되기 어려우므로, 대체로 global minima에ㅐ 근접할 수 있다. 
+  * 모든 차원에서 동시에 local minima가 되기 어려우므로, 대체로 global minima에ㅐ 근접할 수 있다.
+ 
+실재하지만 알 수 없는 함수 f를 근사하고 싶다
+나의 모델의 파라미터 theta를 조절하자
+손실함수를 최소화하도록 파라미터 theta를 조절하자
+미분을 통해 gradient를 얻고, loss를 낮추는 방향으로 파라미터를 업데이트.
+
+## Leanring rate
+실험을 통해 최적화
+현재 LR에서 실험이 안정될 경우, 값을 증가: 최적화 속도 증가
+현재 LR에서 실험이 불안정(loss->NaN 발산)할 경우, 값을 감소
+
+초보자들은 처음에 어떻게 정해야할지 난감하다 -> 아주 작은 값으로 오래 돌리는 방법
+Adam Optimizer를 통해 learning rate에 대한 고민을 없앨 수 있다. 
+
+
 
 
